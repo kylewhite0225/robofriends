@@ -4,6 +4,9 @@ import Card from "./Card";
 // robots is the parameter being passed to this "function" or component
 // in index.js, robots is set to the robots.js file imported in the import list
 const CardList = ({ robots }) => {
+  // if (true) {
+  //   throw new Error('NOO');
+  // }
   const cardsArray = robots.map((user, i) => {
     return (
       <Card
